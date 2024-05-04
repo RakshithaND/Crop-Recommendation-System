@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mydesign</title>
+    <style>
+        .large {
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            border-radius: 100px;
+            box-shadow: 10px 10px 5px rgb(4, 5, 4);
+            background-color: rgb(135, 133, 132);
+            opacity: 0.5;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .main {
+            margin-right: -60px;
+            height: 1cm;
+            display: flex;
+            align-items: center;
+        }
+        .left {
+            font-family: cursive;
+            font-size: x-large;
+        }
+        body {
+            background-image: url(https://images.unsplash.com/photo-1517247224630-61e8b8b98c4a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-repeat: no-repeat;
+            background-size: cover;
+            filter: brightness(100%);
+        }
+        button {
+            height: 1cm;
+            width: 6cm;
+            font-family: cursive;
+            top: 360px;
+            margin-left: -120px;
+            position: absolute;
+            background-color: whitesmoke;
+            border-radius: 60px;
+            box-shadow: 5px 5px 3px rgb(4, 5, 4);
+        }
+        .matter {
+            height: 3cm;
+            position: absolute;
+            top: 170px;
+            color: white;
+            margin-left: 290px;
+            margin-right: 290px;
+        }
+    </style>
+</head>
+<body>
+    <div class="containor">
+        <div class="large">
+            <div class="left">
+                <a href="./">crop recommendation</a>
+                🌱
+            </div>
+            <div class="main">
+                <a href="./main.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="./about">ABOUT US</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="./local">LOCAL CROPS</a>&nbsp;
+            </div>
+        </div>
+        <div class="matter">
+            <p>Crop recommendation using machine learning involves leveraging algorithms to analyze various factors such as soil quality, climate conditions, historical yield data, and crop characteristics to suggest the most suitable crops for a particular area and particular soil. By processing this information, machine learning models can generate accurate recommendations, helping farmers make informed decisions about crop selection, optimize yield, and improve agricultural sustainability.</p>
+        </div>
+        <div class="project">
+            <center>
+                <button><a href="./">crop recommendation</a></button>
+            </center>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelector('.main a[href="./main.html"]').addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent default link behavior
+                window.location.reload(); // Reload the page
+            });
+        });
+    </script>
+</body>
+
+</html>
