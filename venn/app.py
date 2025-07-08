@@ -56,7 +56,7 @@ def predict():
         result = "{} is the best crop to be cultivated for this land ".format(crop)
     else:
         result = "Sorry, we could not determine the best crop to be cultivated with the provided data."
-    return render_template('index.html',result = result)
+    return render_template('main.html',result = result)
 # python main
 if __name__ == "__main__":
     app.run(debug=False)
