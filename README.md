@@ -1,16 +1,20 @@
-we built a crop recommendation system using machine learning 
-algorithms and integrated it into a web application using the Flask 
-framework. The system takes in input data such as soil type, rainfall, 
-temperature, and humidity, and recommends the best crop that can be 
-grown in that particular region based on the machine learning model 
-trained on historical data. 
-The crop recommendation system is useful for farmers who want to 
-maximize their crop yield and minimize crop failure by selecting the best 
-crop based on the conditions of their land. The system uses machine 
-learning algorithms such as decision trees, random forests, and support 
-vector machines to make predictions and recommend the best crop for 
-the given input data. 
-The project showcases the power of machine learning and how it can be 
-used to solve real-world problems in the agricultural industry. The web 
-application created using Flask allows farmers to easily input their data 
-and get crop recommendations quickly and efficiently
+# 🌾 Crop Recommendation System
+
+This is a machine learning-based crop recommendation system that suggests the most suitable crop to grow based on soil and weather conditions. The model is trained on a Kaggle dataset and helps improve decision-making for farmers by predicting the best crop for given inputs.
+
+## 📊 Features
+- Predicts the best crop to grow using ML classification
+- Based on inputs like:
+  - Nitrogen, Phosphorus, Potassium (NPK)
+  - Temperature, Humidity
+  - pH and Rainfall
+- Built with real agricultural data from Kaggle
+  
+## 📸 Snapshots 
+<img width="1875" height="993" alt="Screenshot 2025-01-23 205329" src="https://github.com/user-attachments/assets/647ea531-4874-47a6-88bc-11f3f56b008d" />
+
+<img width="1915" height="987" alt="Screenshot 2025-01-23 210734" src="https://github.com/user-attachments/assets/a1ed6821-61d0-489f-a55c-e7a627e91309" />
+
+Result:
+<img width="406" height="221" alt="Screenshot 2025-01-23 210101" src="https://github.com/user-attachments/assets/5adc955d-e254-494e-84ba-d8bea11766cb" />
+
