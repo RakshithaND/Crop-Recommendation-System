@@ -11,7 +11,7 @@ This is a machine learning-based crop recommendation system that suggests the mo
 - Built with real agricultural data from Kaggle
   
 ## 📸 Snapshots 
-<img width="1000" height="600" alt="Screenshot 2025-01-23 205329" src="https://github.com/user-attachments/assets/647ea531-4874-47a6-88bc-11f3f56b008d" />
+
 
 <img width="1915" height="987" alt="Screenshot 2025-01-23 210734" src="https://github.com/user-attachments/assets/a1ed6821-61d0-489f-a55c-e7a627e91309" />
 
