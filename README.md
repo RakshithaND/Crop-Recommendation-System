@@ -2,7 +2,7 @@
 
 This is a machine learning-based crop recommendation system that suggests the most suitable crop to grow based on soil and weather conditions. The model is trained on a Kaggle dataset and helps improve decision-making for farmers by predicting the best crop for given inputs.
 
-## 📊 Features
+##  Features
 - Predicts the best crop to grow using ML classification
 - Based on inputs like:
   - Nitrogen, Phosphorus, Potassium (NPK)
@@ -10,6 +10,12 @@ This is a machine learning-based crop recommendation system that suggests the mo
   - pH and Rainfall
 - Built with real agricultural data from Kaggle
   
+## Tech Stack
+Python, Flask
+HTML/CSS (Jinja2 templating)
+Scikit-learn, Pandas, NumPy
+Machine Learning model (.pkl)
+
 ## 📸 Snapshots 
 
 
